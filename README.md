@@ -15,13 +15,6 @@ mvn clean package
 
 ## Run
 Execute command
-
-```bash
-java -jar scc/target/*.jar --spring.cloud.config.server.git.uri=file:$(pwd)/scc/git_repo
-```
-
-Then run transfers project
-Execute command
 ```bash
 FIXER_TOKEN=YOUR_TOKEN
 BANXICO_TOKEN=YOUR_TOKEN
