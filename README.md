@@ -50,3 +50,10 @@ curl --location --request GET 'http://127.0.0.1:8080/v1/exchange' \
 --header 'Authorization: Basic dXNlcmFwaTp1c2VycHN3MTIzLg==' \
 --header 'Cookie: JSESSIONID=19C55F0B4654A2A9ADE59BE74527F629'
 ```
+
+
+# Generate Tokens
+
+- [Fixer](https://fixer.io/signup/free)
+- [Banxico](https://www.banxico.org.mx/SieAPIRest/service/v1/token)
+
