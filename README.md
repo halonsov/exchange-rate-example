@@ -50,3 +50,10 @@ docker run --rm -d --name exchange-api -e FIXER_TOKEN=$FIXER_TOKEN -e BANXICO_TO
 # Swagger
 
 Open in browser [this link](http://127.0.0.1:8080/swagger-ui/index.html)
+
+```bash
+curl --location --request GET 'http://127.0.0.1:8080/v1/exchange' \
+--header 'Accept: application/json' \
+--header 'Authorization: Basic dXNlcmFwaTp1c2VycHN3MTIzLg==' \
+--header 'Cookie: JSESSIONID=19C55F0B4654A2A9ADE59BE74527F629'
+```
